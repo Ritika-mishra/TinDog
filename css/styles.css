@@ -1,0 +1,177 @@
+#title, #cta{
+  background-color: #ff4c68;
+}
+body{
+  text-align: center;
+}
+#title-section{
+  text-align: left;
+}
+h1, h2, body, #title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* HEADINGS */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.section-heading, .testimonial-text, .price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.cta-heading{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  padding-bottom: 3%;
+}
+
+
+
+
+
+ /* NAVBAR */
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+ padding: 0 0 4.5rem;
+}
+.navbar-brand{
+ font-family: 'Ubuntu', sans-serif;
+ font-weight: bold;
+ font-size: 2.5rem;
+}
+.nav-item{
+ padding: 0 18px;
+}
+.nav-link{
+ font-size: 1.2rem;
+ font-family: 'Montserrat-light';
+}
+.img{
+ transform: rotate(25deg);
+ position: absolute;
+ right: 30%;
+}
+
+
+
+ /*Download Buttons*/
+.downloadbtn{
+ margin: 5% 3% 15% 0;
+}
+
+
+
+
+
+ /* features */
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  font-family: 'Ubuntu', sans-serif;
+}
+.features{
+  padding: 4.5%;
+}
+.icon:hover{
+  color: #ff4c68;
+  }
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-title{
+  font-size: 1.6rem;
+}
+p{
+  font-size: 1rem;
+  color: grey;
+}
+
+
+
+
+
+  /* testimonial */
+#testimonials, #press{
+   background-color: #ef8172;
+   color: white;
+   padding-bottom: 3%;
+}
+.carousel-item, #features{
+   padding: 7% 15%;
+}
+.testimonial-img{
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+
+  /* CTA */
+#cta{
+    padding: 10% 12% 10% 12%;
+}
+
+
+
+
+
+  /*pricing*/
+#pricing{
+  padding: 100px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.price{
+  padding: 5%;
+}
+
+
+
+
+  /* footers */
+#footer{
+  background-color: white;
+  padding: 3% 0 2%;
+
+}
+.footer{
+  padding: 2% 1%;
+}
+
+
+
+
+
+
+
+
+
+/* media query */
+@media (max-width:1028px) {
+  #title-section{
+    text-align: center;
+  }
+  .container-fluid{
+    padding: 3% 4% 7% 4%;
+  }
+.img{
+  position: static;
+  transform: rotate(0deg);
+  right: 30%;
+   vertical-align: middle;
+}
